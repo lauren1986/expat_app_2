@@ -1,2 +1,23 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>Sign Up</h1>
+<p><em>Find me in app/views/users/new.html.erb</em></p>
+
+<div class="row">
+  <div class="large-12 columns">
+
+    <%= form_for @user do |f|  %>
+      <%= f.label :first_name %>
+      <%= f.text_field :first_name, :placeholder => "Enter your first name" %>
+      <%= f.label :last_name %>
+      <%= f.text_field :last_name, :placeholder => "Enter your last name" %>
+      <%= f.label :email %>
+      <%= f.text_field :email, :placeholder => "Enter your email" %>
+      <%= f.label :password %>
+      <%= f.password_field :password, :placeholder => "Create a password" %>
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation, :placeholder => "Confirm your password" %>
+      <%= f.submit "Sign Up Now" %>
+
+    <% end %>
+
+  </div>
+</div>

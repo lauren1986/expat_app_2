@@ -91,6 +91,9 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
+  $opensans: 'Open Sans', sans-serif;
+  $gentium: 'Gentium Basic', serif;
+
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
@@ -123,10 +126,19 @@ $include-html-global-classes: $include-html-classes;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
+// Custom brand colors
+   $ocean: #03BEB3;
+   $oceanhover: #04C9C9;
+   $sun: #E5751F;
+   $sunhover: #E58F20;
+   $lightgrey: #BABBB1;
+   $darkgrey: #555651;
+   $darkestgrey: #464743;
+
 // We use these to control various global styles
 // $body-bg: $white;
-// $body-font-color: $jet;
-// $body-font-family: $font-family-sans-serif;
+   $body-font-color: $darkgrey;
+   $body-font-family: $opensans;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 
@@ -195,10 +207,10 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+   $header-font-family: $opensans;
+   $header-font-weight: 900;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+   $header-font-color: $darkestgrey;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1364,7 +1376,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: $oil;
+   $topbar-bg-color: $ocean;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1376,7 +1388,7 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: $oil;
+   $topbar-dropdown-bg: $ocean;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-bg: $oil;
 // $topbar-dropdown-link-bg-hover: $oil;
@@ -1395,9 +1407,9 @@ $include-html-global-classes: $include-html-classes;
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
 // $topbar-link-bg-color-hover: $charcoal;
-// $topbar-link-bg-hover: $oil;
-// $topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+   $topbar-link-bg-hover: $oceanhover;
+   $topbar-link-bg-active: $sun;
+   $topbar-link-bg-active-hover: $sunhover;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: ($topbar-height / 3);
