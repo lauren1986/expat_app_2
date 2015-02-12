@@ -1465,6 +1465,14 @@ $include-html-global-classes: $include-html-classes;
   margin: 4% 0 0 0;
 }
 
+.social a {
+  color: $darkgrey;
+}
+
+.social a:hover {
+  color: $sun;
+}
+
 .widget {
   font-size: 80%
 }
