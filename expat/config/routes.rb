@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
   get 'staticpages/home'
-
   get 'staticpages/how'
-
   get 'staticpages/who'
-
   get 'staticpages/contact'
 
   resource :sessions, only: [:new, :create, :destroy]

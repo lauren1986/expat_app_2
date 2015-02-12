@@ -123,7 +123,7 @@ $include-html-global-classes: $include-html-classes;
 // $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
-// $success-color: #43AC6A;
+// $success-color: #sun;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
@@ -1460,17 +1460,24 @@ $include-html-global-classes: $include-html-classes;
 // Lauren's custom styles
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-/* --- Footer Section --- */
-.footer h5 {
-  margin: 4% 0 0 0;
+/* --- Main Section --- */
+
+.main {
+  padding: 40px 0 80px 0;
 }
 
-.social a {
+/* --- Footer Section --- */
+
+.footer h5 {
+  margin: 4% 0 1% 0;
+}
+
+.social {
   color: $darkgrey;
 }
 
-.social a:hover {
-  color: $sun;
+.social:hover {
+  color: $sunhover;
 }
 
 .widget {

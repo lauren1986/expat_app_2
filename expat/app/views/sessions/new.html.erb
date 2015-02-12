@@ -1,8 +1,8 @@
-<h1>Log In</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<div class="row main">
+  <div class="large-6 large-offset-3 columns">
 
-<div class="row">
-  <div class="large-12 columns">
+    <h1 class="text-center">Log In</h1>
+    <p class="text-center"><em>Find me in app/views/sessions/new.html.erb</em></p>
 
     <%= form_for @user, :url => { :controller => "sessions", :action => "create" } do |f| %>
       <%= f.label :email %>
