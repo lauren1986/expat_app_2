@@ -79,6 +79,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
+   $row-width: 98%;
 // $row-width: rem-calc(1000);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
@@ -459,8 +460,8 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control button border and hover styles.
 // $button-border-width: 0px;
 // $button-border-style: solid;
-// $button-bg-color: $primary-color;
-// $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
+   $button-bg-color: $sun;
+   $button-bg-hover: $sunhover;
 // $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);
 // $secondary-button-border-color: $secondary-button-bg-hover;
@@ -1455,5 +1456,26 @@ $include-html-global-classes: $include-html-classes;
 // $include-table-visibility-classes: true;
 // $include-legacy-visibility-classes: true;
 // $include-accessibility-classes: true;
+
+// Lauren's custom styles
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+/* --- Footer Section --- */
+.footer h5 {
+  margin: 4% 0 0 0;
+}
+
+.widget {
+  font-size: 80%
+}
+
+.copyright {
+  font-size: 60%;
+}
+
+.foot {
+  font-size: 180%;
+  margin: 0 5% 0 0;
+}
 
 @import 'foundation';
